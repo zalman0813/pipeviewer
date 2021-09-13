@@ -1,7 +1,7 @@
 use clap::{App, Arg};
 use std::env;
 use std::fs::File;
-use std::io::{self, BufReader, BufWriter, ErrorKind, Read, Result, Write};
+use std::io::{self, BufReader, BufWriter, ErrorKind, Result, Read, Write};
 
 const CHUNK_SIZE: usize = 16 * 1024;
 
